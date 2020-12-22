@@ -61,7 +61,7 @@ module.exports = class QueueCommand extends (
 
       for (let i = startingItem; i < itemPerPage; i++) {
         const video = server.queue[i];
-        value += "`" + (i + 1) + ".` " + video.url + "\n";
+        value += "`" + (i + 1) + ".` " + video.title + "\n";
       }
       embed.addField("A venir: ", value);
     }
