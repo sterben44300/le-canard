@@ -1,0 +1,23 @@
+{
+  "name": "lecanardmusical",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "youtube-search": "^1.1.4",
+    "ytdl-core": "^4.1.5"
+  }
+}
