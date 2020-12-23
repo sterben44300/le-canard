@@ -67,6 +67,6 @@ module.exports = class PlayCommand extends (
       }
     });
 
-    return message.say("En train de jouer :notes:");
+    return message.say("En train de jouer :notes: :notes:");
   }
 };
