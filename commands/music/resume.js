@@ -13,6 +13,7 @@ module.exports = class ResumeCommand extends (
       group: "music",
       memberName: "resume",
       description: "Remet la musique.",
+      ownerOnly: "true",
     });
   }
   /**

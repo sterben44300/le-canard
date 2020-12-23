@@ -11,6 +11,7 @@ module.exports = class SkipCommand extends (
       group: "music",
       memberName: "skip",
       description: "Skip une musique !",
+      ownerOnly: "true",
     });
   }
   /**

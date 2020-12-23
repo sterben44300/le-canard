@@ -13,6 +13,7 @@ module.exports = class PauseCommand extends (
       group: "music",
       memberName: "pause",
       description: "Met en pause la musique.",
+      ownerOnly: "true",
     });
   }
   /**

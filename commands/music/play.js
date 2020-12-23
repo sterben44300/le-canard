@@ -13,6 +13,7 @@ module.exports = class PlayCommand extends (
       group: "music",
       memberName: "play",
       description: "Joue de la musique via un lien externe youtube.",
+      ownerOnly: "true",
       args: [
         {
           key: "query",

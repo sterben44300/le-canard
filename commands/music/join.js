@@ -9,6 +9,7 @@ module.exports = class JoinCommand extends (
       name: "join",
       group: "music",
       memberName: "join",
+      ownerOnly: "true",
       description: "Rejoint ton salon vocal!!",
     });
   }

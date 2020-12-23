@@ -11,6 +11,7 @@ module.exports = class QueueCommand extends (
       group: "music",
       memberName: "queue",
       description: "Affiche la file d'attente! ",
+      ownerOnly: "true",
       args: [
         {
           key: "page",
@@ -61,7 +62,7 @@ module.exports = class QueueCommand extends (
 
       for (let i = startingItem; i < itemPerPage; i++) {
         const video = server.queue[i];
-        value += "`" + (i + 1) + ".` " + video.title + "\n";
+        value += "`" + (i + 1) + ".` " + video.url + "\n";
       }
       embed.addField("A venir: ", value);
     }
